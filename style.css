@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    background: #4a4a4a;
+    color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #009926;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: #009926;
+    color: #333;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4a4a4a;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: #4a4a4a;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#gameArea {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    margin: auto;
+}
